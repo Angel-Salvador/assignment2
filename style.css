@@ -1,0 +1,118 @@
+/*Plum: #66101F
+Salsa: #FB3640
+Sand: #ECC8Af */
+/* Header: Touch edge to edge? */
+.header {    
+    background-color: #6f1010;
+    width: 100%;
+
+}
+html,body{
+    object-fit: cover;
+    margin: 0;
+}
+.imgheader {    
+    width: 100%;
+    max-width: 100%; 
+    max-height:100%;
+    object-fit: cover;
+}
+h1 { 
+    position: relative;
+    text-align: center;
+    }
+
+/* nav bar */
+ul.nav {    
+    list-style-type: none; 
+    text-align: center;
+    padding: 1% 2% 2% 2%;
+}
+a {
+    text-decoration: none; 
+    color: #fcd0d1; 
+    font-size:24px;
+}
+a:hover {
+    border-top: 3px solid rgb(255, 141, 141);
+    padding: 7px 0px 0px 0px;
+}
+ul.nav li {
+    display: inline-block; 
+    padding: 0 30px;
+}
+@media (max-wdth: 600px)
+{
+    ul.nav li{padding: 0 10 px}
+}
+
+    /* General Text */
+body{
+    background-color: #891c1c;
+    font-size: 20px; 
+    color: rgb(255, 217, 217); 
+    text-align: center;
+    font-family: sans-serif;
+}
+p{
+    display: flex;
+    font-size: 25px; 
+    color: white; 
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Text and picture column */   
+.panel{
+    margin: 2% 10% 2% 10%;
+    padding: 2% 5% 2% 5%;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b0808;
+    align-items: center;
+    /* margin: 0% 20% 0% 20%; */
+}
+
+    .img1 {
+        float: left;
+        max-width: 40%;
+        height: auto;
+        position: relative;
+
+        float: top;
+        margin-right: 40px;
+        overflow:hidden;
+    }
+    .panel::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+.text {
+     font-size: 30px;
+     padding: 10%
+}
+
+
+/* Footer */
+footer {
+    background-image: url(redbackground.jpg);
+    text-align: center;
+    padding: 3px;
+    background-color: #251212;
+    color: rgb(201, 131, 131);
+    float: bottom;
+} 
+ul.footer {    
+    list-style-type: none; 
+    text-align: center;
+    padding: 2%;
+}
+ul.footer li {
+    display: inline-block; 
+    padding: 0 30px;
+}
+@media (max-wdth: 600px)
+{
+    ul.nav li{padding: 0 10 px}
+}

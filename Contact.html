@@ -1,0 +1,80 @@
+<link rel="stylesheet" href="style.css">
+<html>
+<head><title> Home Page </title></head>
+<div class="header">
+<!-- Header Image + Logo -->
+<img class="imgheader" src="header.jpg"/>
+<!-- Nav Bar -->
+<ul class='nav'>
+	<li><a href="Homepage.html">Home</a></li>
+	<li><a href="Merchandise.html">Merchandise</a></li>
+	<li><a href="Contact.html">Contact</a></li>
+</ul>
+</div>
+<style>
+    input[type=text], select, textarea {
+    width: 100%; 
+    border: 1px solid #440000;
+    box-sizing: border-box; 
+    margin: 10px 0px 10px 0px; 
+    resize: vertical;
+    padding: 10px; 
+    font-size: 20px
+    }
+    .textarea-default::before {
+    content: "Please enter your message here...";
+    display: block;
+  }
+</style>
+
+
+<body>
+<!-- test two columns -->
+<div class="panel">
+    <form>
+        <h1>Contact Us! </h1>
+		<label for="txtNameId">Name </label> <input type = 'text'
+		name='txtName' id='txtNameId' placeholder="your name">
+        </br>
+        <label for="txtNameId">Phone Number </label> <input type = 'text'
+		name='txtName' id='txtNameId' placeholder="your phone number">
+        </br>
+        <label for="txtNameId">Email </label> <input type = 'text'
+		name='txtName' id='txtNameId' placeholder="your email address"> 
+		<br />
+		<input type="radio" name='choice' value='yes' checked='1'>Reply using phone number
+		<input type="radio" name='choice' value='no'>Reply using email
+		<br />
+		<textarea class="textarea-default" rows="5"></textarea>
+		<br /> <input type='submit' value='Submit'; onclick="alert('We will reach out to you shortly!')">
+		<br />
+	</form>
+
+</div>
+<div class="panel">
+        <img class="img1" src="outside.jpg">
+        
+            <h2><a href="https://www.facebook.com/eljarritomexicancrafts">
+                    Facebook</a></h2>
+            <h2><a href="https://www.google.com/maps/place/124+Millstead+Dr,+Mebane,+NC+27302/data=!4m2!3m1!1s0x89acd418125d8e7d:0x731c95c61446fd2d?sa=X&ved=2ahUKEwiay4ue54b9AhV1MlkFHW4YBNcQ8gF6BAgIEAI">
+                Address</a></h2>
+            <p>
+                Come visit our store!
+              </br>
+              </br>
+                124 Millstead Dr, Mebane NC 27302
+              </br>
+                Phone Number: 336 420 8426
+            </p>
+</div>
+
+
+</body>
+<footer>
+    <ul class='footer'>
+        <li><a href="Homepage.html">
+            ElJarrito.com</a></li>
+        <li>Copyright 2023</a></li>
+    </ul>
+</footer>
+</html>
